@@ -7,13 +7,13 @@ The main.py file creates a Tkinter GUI with a webcam feed and a "Blur" button. W
 
 The blur.py module contains the image processing logic:
 
-blur() - Applies a Gaussian blur to a specified region in the image
-process_img() - Detects faces using a mediapipe FaceDetection model, calls blur() to blur each face, and returns the processed image
+> blur() - Applies a Gaussian blur to a specified region in the image
+> process_img() - Detects faces using a mediapipe FaceDetection model, calls blur() to blur each face, and returns the processed image
 Requirements
-OpenCV
-Mediapipe
-Tkinter
-PIL
+> OpenCV
+> Mediapipe
+> Tkinter
+> PIL
 Usage
 Run main.py to start the application. The webcam feed will be displayed. Click the "Blur" button to toggle blurring of detected faces on/off.
 
