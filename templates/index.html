@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Blur</title>
+</head>
+<body>
+    <h1>Face Blur</h1>
+    <img id="video_feed" width="640" height="480">
+    <button onclick="toggleBlur()">Toggle Blur</button>
+
+    <script>
+        function toggleBlur() {
+            fetch('/toggle_blur');
+        }
+
+        const img = document.getElementById('video_feed');
+        img.src = '/video_feed.jpg'; // Update image source
+    </script>
+</body>
+</html>
