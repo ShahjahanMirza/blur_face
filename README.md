@@ -2,7 +2,7 @@
 **Face Blur Webcam App**
 This is a simple webcam application that can blur faces in real-time using OpenCV and mediapipe.
 
-Overview
+<h3>Overview</h3>
 The main.py file creates a Tkinter GUI with a webcam feed and a "Blur" button. When blur is enabled, it calls the blur_process_img function from blur.py to detect faces using mediapipe and blur them before displaying the webcam frame.
 
 The blur.py module contains the image processing logic:
@@ -14,10 +14,10 @@ The blur.py module contains the image processing logic:
 * Mediapipe
 * Tkinter
 * PIL
-Usage
+<h3>Usage</h3>
 Run main.py to start the application. The webcam feed will be displayed. Click the "Blur" button to toggle blurring of detected faces on/off.
 
-Customization
+<h3>Customization</h3>
 The min_detection_confidence parameter when creating the FaceDetection model can be adjusted to modify the face detection sensitivity.
 
 The blur strength in blur() can be controlled by changing the kernel size.
