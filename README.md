@@ -1,4 +1,9 @@
 # blur_face
+
+
+https://github.com/ShahjahanMirza/blur_face/assets/103453568/6683ffc1-667d-4ba7-9193-83be14c76118
+
+
 **Face Blur Webcam App**
 This is a simple webcam application that can blur faces in real-time using OpenCV and mediapipe.
 
